@@ -4,11 +4,10 @@ cou=c()
 temp=0
 for (i in 1:l){
   a[i]=as.integer(readline("enter the element:"))
-  
 }
-c=0
 for (i in 1:length(a))
 {
+  c=0
   for (j in 1:length(a))
   {
     if (a[i]==a[j])
@@ -29,8 +28,9 @@ for (i in 1:length(a))
 m=max(cou)
 for (i in 1:l)
 {
-  if (a[i]==m)
+  if (cou[i]==m)
   {
     printf(paste("the mode is:",a[i],"repeated:",m," times"))
+    break
   }
 }
