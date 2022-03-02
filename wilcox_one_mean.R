@@ -12,3 +12,29 @@ if (n$p.value>l){
 }else{
   print("accept h1")
 }
+
+
+/*
+output:
+"enter the values of x:"
+1: 36
+2: 29
+3: 44
+4: 28
+5: 40
+6: 50
+7: 39
+8: 47
+9: 33
+10: 
+Read 9 items
+[1] "enter the los:"
+1: 0.05
+2: 
+Read 1 item
+[1] "enter the given mean/meadian value:"
+1: 35
+2: 
+Read 1 item
+[1] "accept h0 : given mean is accurate"
+*/
